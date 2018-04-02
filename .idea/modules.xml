@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://C:\HOMEWARE\project\puppet-properties\project.iml" filepath="C:\HOMEWARE\project\puppet-properties\project.iml" />
-      <module fileurl="file://$PROJECT_DIR$/puppet-properties.iml" filepath="$PROJECT_DIR$/puppet-properties.iml" />
-    </modules>
-  </component>
-</project>

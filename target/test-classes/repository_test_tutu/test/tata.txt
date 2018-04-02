@@ -1,5 +1,0 @@
-{{firs.line.tata.key}}
-{{second.line.tata.key}}
-tata and toto
-titi and tutu
-{{last.line.tata.key}}
