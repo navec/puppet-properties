@@ -40,6 +40,7 @@ public class RepositoryServiceTest {
     public void should_return__true_when_uri_repository_is_not_null() throws Exception {
         // Given
         String uri = "fake-uri-repository";
+        repositoryService.setCloneCommand(cloneCommand);
 
         // When
         when(cloneCommand.setURI(anyString())).thenReturn(cloneCommand);

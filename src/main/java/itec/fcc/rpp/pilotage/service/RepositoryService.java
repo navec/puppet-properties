@@ -1,5 +1,6 @@
 package itec.fcc.rpp.pilotage.service;
 
+import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 import org.eclipse.jgit.api.CloneCommand;
 import org.eclipse.jgit.api.Git;
@@ -16,7 +17,8 @@ import java.io.File;
 @Named
 public class RepositoryService {
 
-    private final CloneCommand cloneCommand = Git.cloneRepository();
+    @Setter
+    private CloneCommand cloneCommand = Git.cloneRepository();
 
     public boolean clone(String uriRepository) throws InvalidRemoteException {
         try {
