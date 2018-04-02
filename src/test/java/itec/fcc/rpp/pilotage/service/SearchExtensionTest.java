@@ -15,12 +15,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  */
 public class SearchExtensionTest {
 
-    private SearchExtension searchExtension ;
-
-    @Before
-    public void instanceSearchExtension(){
-        searchExtension = new SearchExtension(new ScanFolder());
-    }
+    private SearchExtension searchExtension = new SearchExtension();
 
     @Test
     public void should_return_a_list_of_txt_extension_file_when_extension_is_txt() {
@@ -38,5 +33,4 @@ public class SearchExtensionTest {
         assertThat(files).contains(expected1);
         assertThat(files).contains(expected2);
     }
-
 }
